@@ -7,11 +7,11 @@
   "license": "MIT",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "eslint": "^7.13.0",
+    "eslint": "^8.0.1",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "puppeteer": "^5.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "puppeteer": "^10.4.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
