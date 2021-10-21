@@ -3,6 +3,7 @@ module.exports = {
   parser: "babel-eslint",
   env: {
     browser: true,
+    node: true,
   },
   plugins: ["prettier"],
   rules: {
@@ -24,6 +25,8 @@ module.exports = {
     ],
     "import/no-named-as-default": "off",
     "import/no-cycle": "off",
+    "jsx-quotes": [2, "prefer-single"],
+    quotes: [2, "single", { avoidEscape: true }],
   },
   globals: {
     fetch: false,
