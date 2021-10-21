@@ -8,7 +8,7 @@ rp(url)
     //success!
     const wikiUrls = [];
     for (let i = 0; i < 45; i++) {
-      wikiUrls.push($("big > a", html)[i].attribs.href);
+      wikiUrls.push($("b > a", html)[i].attribs.href);
     }
     return Promise.all(
       wikiUrls.map(function (url) {
